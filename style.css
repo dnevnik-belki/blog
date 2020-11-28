@@ -1,0 +1,178 @@
+p {
+color: purple;
+line-height: 1.25;
+     margin-bottom: 1em;
+    }
+              
+.blue {
+color: blue;
+line-height: 1.25;
+margin-bottom: 1em;
+}
+              
+.green {
+color: green;
+line-height: 1.25;
+margin-bottom: 1em;
+}
+              
+.first {
+color: navy;
+line-height: bold;
+margin-bottom: 5px solid;
+}
+            
+#red {
+    color: tomato;
+}
+
+h1 {
+    color: #ff5733;
+   background-color: beige;
+    font-family: sans-serif;
+        justify-content:center;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#foto {
+    border-radius: 25%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 640px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Verdana", "Tahoma", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #eae9f2;
+}
+
+/* Тёмная тема */
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
+.dark-theme h1 {
+  color: deepskyblue;
+  background-color: burlywood;
+}
+
+.dark-theme h1 {
+  color: deepskyblue;
+  background-color: burlywood;
+    justify-content:center;
+}
+
+.dark-theme .first {
+  color: deepskyblue;
+}
+
+.dark-theme .two {
+  color: deepskyblue;
+}
+
+.dark-theme .blue {
+  color: deepskyblue;
+}
+
+.dark-theme #pink {
+  color: crimson ;
+}
+
+.dark-theme a {
+  color: #9484f2;
+}
+
+.dark-theme .green {
+  color: greenyellow;
+}
+
+.dark-theme #red {
+  color: firebrick;
+}
+
+.dark-theme .theme-button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+
+.dark-theme .status p {
+  background-color: #2a2930;
+}
+
+.dark-theme .page-footer {
+  background-color: #373540;
+  color: #f2f2f2;
+}
+
+.dark-theme .pink {
+  color: crimson ;
+}
+/* Доп */
+
+body {
+    background: #131313;
+color: white;
+    display: flex;
+   justify-content: center;
+}
+
+h1 {
+color: #FF5733;
+}
+
+p {
+
+line-height: 1.25;
+margin-bottom: 1em;
+}
+
+.first {
+color: navy;
+font-weight: bold;
+border-left: 5px solid beige;
+}
+
+.entry-wrapper {
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+flex-wrap: wrap;
+
+margin-bottom: 40px;
+position: relative;
+}
+
+.entry {
+width: 600px;
+}
+
+img {
+width: 480px;
+}
+
+/* Продолжение*/ 
+
+.theme-button {
+   display: flex;
+   justify-content: flex-start;
+}
+.two {
+color: navy;
+font-weight: bold;
+border-left: 5px solid beige;
+}
